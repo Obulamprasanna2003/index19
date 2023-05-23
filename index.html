@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1{
+        text-shadow: 5px 5px 5px  lightblue,3px 4px 5px rgb(248, 7, 87) ;
+color: brown;
+    }
+    h2{
+        color: blue;
+    }
+    button:hover{
+        cursor: pointer;
+        color: rgb(235, 235, 241);
+        background-color: rgb(9, 230, 13);
+     
+    }
+    button{
+        border: 1px solid black;
+    }
+    input{
+        border: 1px solid black;
+    }
+    input:hover{
+        cursor: pointer;
+        color: rgb(235, 235, 241);
+        background-color: blue;
+     
+    }
+</style>
+    
+</head>
+<body style="background-image: url(Desktop-Sky-Backgrounds-Images-Desgins.jpg); background-repeat: no-repeat; background-size: 100%;">
+    <div class="container" style="text-align: center; padding-top: 145px;">
+    <h1 >Guess the Number</h1>
+        <h2>Guess a number between 1 to 100:</h2>
+        <input type="number" id="guessInput" name="quantity" min="1" max="100">
+        <button id="guessBtn">Submit</button>
+        <p id="message"></p>
+    
+    </div>
+    <script src="js.js"></script>
+
+</body>
+</html>
